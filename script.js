@@ -33,5 +33,7 @@ button.addEventListener('click', async () => {
   }
   catch(err){
     console.log(err.message)
+
+    divResponse.innerHTML = '<p>Erro</p>'
   }
 })
